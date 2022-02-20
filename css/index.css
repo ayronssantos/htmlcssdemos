@@ -1,0 +1,65 @@
+body{
+/* background: url(../imagens/fotoayron.jpeg); */
+}
+header{
+    margin: 20px 0 ;
+}
+.div-dadospessoais{
+margin-bottom: 20px;
+}
+.cabecalho-imagem{
+width: 100px;
+margin-left: 35%;
+}
+h2{
+    background: linear-gradient(#FFF, #00F);
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bold;
+    border: 15px, solid;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+    padding: 5px;
+    text-align: center;
+}
+main ul{
+    display: inline-block;
+    text-align: center;
+    margin-left: 40%;
+}
+.informacoes-pessoais{
+    text-align: center;
+}
+.textoprincipal{
+    text-align: center;
+    font-size: 3em;
+}
+.navegacao{
+    top: 100px;
+    right: 20px;
+    margin-top: 20px;
+    background: #CCC;
+}
+.navegacao li{
+    display: inline-block;
+    margin: 0 0 0 20px;
+    border: 2px solid purple;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
+.navegacao li:hover{
+    border: 4px solid yellow;
+    transition: 1s;
+}
+.navegacao a{
+    color: red;
+    text-decoration: none;
+}
+.navegacao a:hover{
+    transition: 1s;
+    color: black
+    
+}
